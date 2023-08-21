@@ -1,0 +1,50 @@
+# Este .gitignore está pensado para un entorno donde el repositorio de git es el workspace activo.
+# Es decir, que la carpeta .git esté en el mismo nivel que los proyectos:
+# Un ejemplo de esto:
+#        C:\
+#        | -> Workspace
+#             | -> .git
+#             | -> demo
+#                 | -> src
+#                 | -> bin
+#                 | -> ...
+#             | -> Resources
+#             | -> .metadata (Metadata de eclipse)
+#             | -> RemoteSystemsTempFiles
+
+
+# Rutas
+Servers/
+Servers2/
+RemoteSystemsTempFiles/
+
+# Eclipse
+.metadata/
+.recommenders/
+.settings/
+**/.metadata/
+**/.recommenders/
+**/.settings/
+**/.history/
+.settings
+.recommenders
+.metadata
+
+# Visual Code
+**/.vscode/
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Builded Resources
+bin/
+target/
+**/bin/
+**/target/
+
+# No estoy seguro de excluir los settings del proyecto, son las preferencias configuradas en eclipse para c/u de los proyectos.
+# */.settings/
+.classpath
+.editorconfig
