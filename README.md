@@ -29,6 +29,12 @@ Se crea un proyecto Java (Maven) con JDK 11
 
 
 
+La carpeta demo contiene el consumo del servicio restApi por consola, la carpeta demo interface contiene el aspecto grafico por (MVC)
+
+
+
+Nota: Agradezco la oportunidada brindada para ingresar a esta grandiosa empresa, pero lastimosamente tuve una calamidad domestica y mi estado de salud no es muy bueno por lo cual no pude finiquitar todos los puntos de la prueba tecnica. Anexo lo que pude realizar en el trascurso del puente festivo. muchas gracias por su atencion prestada.
+
 
 
 __William Vasquez ® Developer's Guide.__
